@@ -117,7 +117,7 @@ TextEditingController passwordController = new TextEditingController();
                     onPressed: (){
 
                     },
-                    color:  Colors.blue,
+                    color:  Colors.green,
                     child: Text('LOGIN', style: TextStyle(color: Colors.white)),
                   ),
                 ),
@@ -136,7 +136,7 @@ class CurvePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     var paint = Paint();
-    paint.color = Colors.blue;
+    paint.color = Colors.green;
     paint.style = PaintingStyle.fill;
 
     var path = Path();
